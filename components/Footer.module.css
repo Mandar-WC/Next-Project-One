@@ -1,0 +1,36 @@
+/* components/Footer.module.css */
+
+.footer {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Assuming you have similar background color for navbar */
+    background-color: #f0f0f0;  /* Example background color */
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    width: 100%;  /* Optional: Set container width */
+    max-width: 1024px;  /* Optional: Set maximum container width */
+    margin: 0 auto;  /* Optional: Center container horizontally */
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;  /* Ensure image fills the space */
+  }
+  
+  .logoSize {
+    /* Adjust these styles if your logo has different dimensions */
+    width: 50px;
+    height: 50px;
+  }
+  
+  .navBackground {
+    /* Apply the same background color as navbar here */
+    background-color: #f0f0f0;  /* Replace with your actual navbar color */
+  }
+  
